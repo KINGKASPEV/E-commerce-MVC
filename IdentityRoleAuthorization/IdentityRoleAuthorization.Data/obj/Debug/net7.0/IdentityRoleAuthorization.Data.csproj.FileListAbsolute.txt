@@ -1,0 +1,17 @@
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\bin\Debug\net7.0\IdentityRoleAuthorization.Data.deps.json
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\bin\Debug\net7.0\IdentityRoleAuthorization.Data.runtimeconfig.json
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\bin\Debug\net7.0\IdentityRoleAuthorization.Data.dll
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\bin\Debug\net7.0\IdentityRoleAuthorization.Data.pdb
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\bin\Debug\net7.0\IdentityRoleAuthorization.Model.dll
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\bin\Debug\net7.0\IdentityRoleAuthorization.Model.pdb
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\obj\Debug\net7.0\IdentityRoleAuthorization.Data.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\obj\Debug\net7.0\IdentityRoleAuthorization.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\obj\Debug\net7.0\IdentityRoleAuthorization.Data.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\obj\Debug\net7.0\IdentityRoleAuthorization.Data.AssemblyInfo.cs
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\obj\Debug\net7.0\IdentityRoleAuthorization.Data.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\obj\Debug\net7.0\IdentityRoleAuthorization.Data.csproj.CopyComplete
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\obj\Debug\net7.0\IdentityRoleAuthorization.Data.dll
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\obj\Debug\net7.0\refint\IdentityRoleAuthorization.Data.dll
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\obj\Debug\net7.0\IdentityRoleAuthorization.Data.pdb
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\obj\Debug\net7.0\IdentityRoleAuthorization.Data.genruntimeconfig.cache
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\obj\Debug\net7.0\ref\IdentityRoleAuthorization.Data.dll

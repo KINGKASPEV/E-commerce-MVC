@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-IdentityRoleAuthorization-3d4e0ac6-a695-4c43-8c6e-a9945a8ba34a</UserSecretsId>
   </PropertyGroup>
@@ -11,6 +11,10 @@
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.13" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.13" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.13">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.12" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.13" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.13" />
@@ -19,6 +23,12 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\Uploads\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IdentityRoleAuthorization.Data\IdentityRoleAuthorization.Data.csproj" />
+    <ProjectReference Include="..\IdentityRoleAuthorization.Model\IdentityRoleAuthorization.Model.csproj" />
+    <ProjectReference Include="..\IdentityRoleAuthorization.Service\IdentityRoleAuthorization.Service.csproj" />
   </ItemGroup>
 
 </Project>

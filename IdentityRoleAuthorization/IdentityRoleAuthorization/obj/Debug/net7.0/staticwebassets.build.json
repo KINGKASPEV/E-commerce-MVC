@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HE1tl0hMF/DONhaiDJT+8fSyqCM/d3ie2mWdawMAOek=",
+  "Hash": "UPi5AkgTvqOHNdgTlXdNdb1DKTJnFBJ16XjMylat1YQ=",
   "Source": "IdentityRoleAuthorization",
   "BasePath": "_content/IdentityRoleAuthorization",
   "Mode": "Default",
@@ -2089,6 +2089,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\8f27adf5-cca2-47b0-a1e1-4d5f1eac4006.jpg",
+      "SourceId": "IdentityRoleAuthorization",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\",
+      "BasePath": "_content/IdentityRoleAuthorization",
+      "RelativePath": "Uploads/8f27adf5-cca2-47b0-a1e1-4d5f1eac4006.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\8f27adf5-cca2-47b0-a1e1-4d5f1eac4006.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\9050721b-1f96-4a66-a9c4-8678267666d9.jpg",
+      "SourceId": "IdentityRoleAuthorization",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\",
+      "BasePath": "_content/IdentityRoleAuthorization",
+      "RelativePath": "Uploads/9050721b-1f96-4a66-a9c4-8678267666d9.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\9050721b-1f96-4a66-a9c4-8678267666d9.jpg"
     }
   ]
 }
