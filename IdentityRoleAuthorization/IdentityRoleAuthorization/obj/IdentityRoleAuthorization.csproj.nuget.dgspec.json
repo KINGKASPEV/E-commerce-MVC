@@ -217,7 +217,14 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization.Data\\IdentityRoleAuthorization.Data.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization.Data\\IdentityRoleAuthorization.Data.csproj"
+              },
+              "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization.Model\\IdentityRoleAuthorization.Model.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization.Model\\IdentityRoleAuthorization.Model.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

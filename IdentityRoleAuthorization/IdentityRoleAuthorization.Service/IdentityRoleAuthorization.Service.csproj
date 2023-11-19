@@ -23,4 +23,9 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.9" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\IdentityRoleAuthorization.Data\IdentityRoleAuthorization.Data.csproj" />
+    <ProjectReference Include="..\IdentityRoleAuthorization.Model\IdentityRoleAuthorization.Model.csproj" />
+  </ItemGroup>
+
 </Project>

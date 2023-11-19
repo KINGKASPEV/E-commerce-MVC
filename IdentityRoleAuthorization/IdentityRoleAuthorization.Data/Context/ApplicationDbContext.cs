@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace IdentityRoleAuthorization.Data
+namespace IdentityRoleAuthorization.Data.Context
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {

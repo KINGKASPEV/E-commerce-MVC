@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using IdentityRoleAuthorization.Models.Dtos;
 
 namespace IdentityRoleAuthorization.Service.Services.interfaces
 {
-    internal interface IProductService
+    public interface IProductService
     {
+        Task AddProductAsync(ProductRequestDto productRequestDto);
+        Task<IEnumerable<ProductResponseDto>> GetProductsAsync();
+        Task<ProductResponseDto> GetByIdAsync(string productId);
+        Task UpdateProductAsync(string productId, ProductRequestDto productRequestDto);
+        Task DeleteProductAsync(string productId);
+        Task<IEnumerable<ProductResponseDto>> DeleteAllProductAsync();
     }
 }

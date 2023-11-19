@@ -4212,6 +4212,43 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "IdentityRoleAuthorization.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "IdentityRoleAuthorization.Model": "1.0.0",
+          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "7.0.13",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.13",
+          "Microsoft.AspNetCore.Identity.UI": "7.0.13",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13",
+          "Microsoft.EntityFrameworkCore.Sqlite": "7.0.12",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.9"
+        },
+        "compile": {
+          "bin/placeholder/IdentityRoleAuthorization.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IdentityRoleAuthorization.Data.dll": {}
+        }
+      },
+      "IdentityRoleAuthorization.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "7.0.13",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.13",
+          "Microsoft.AspNetCore.Identity.UI": "7.0.13",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13",
+          "Microsoft.EntityFrameworkCore.Sqlite": "7.0.12",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.9"
+        },
+        "compile": {
+          "bin/placeholder/IdentityRoleAuthorization.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IdentityRoleAuthorization.Model.dll": {}
+        }
       }
     }
   },
@@ -11965,10 +12002,22 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "IdentityRoleAuthorization.Data/1.0.0": {
+      "type": "project",
+      "path": "../IdentityRoleAuthorization.Data/IdentityRoleAuthorization.Data.csproj",
+      "msbuildProject": "../IdentityRoleAuthorization.Data/IdentityRoleAuthorization.Data.csproj"
+    },
+    "IdentityRoleAuthorization.Model/1.0.0": {
+      "type": "project",
+      "path": "../IdentityRoleAuthorization.Model/IdentityRoleAuthorization.Model.csproj",
+      "msbuildProject": "../IdentityRoleAuthorization.Model/IdentityRoleAuthorization.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "IdentityRoleAuthorization.Data >= 1.0.0",
+      "IdentityRoleAuthorization.Model >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 7.0.13",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.13",
       "Microsoft.AspNetCore.Identity.UI >= 7.0.13",
@@ -12005,7 +12054,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization.Data\\IdentityRoleAuthorization.Data.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization.Data\\IdentityRoleAuthorization.Data.csproj"
+            },
+            "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization.Model\\IdentityRoleAuthorization.Model.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization.Model\\IdentityRoleAuthorization.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

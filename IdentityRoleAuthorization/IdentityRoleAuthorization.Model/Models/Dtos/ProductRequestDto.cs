@@ -19,7 +19,7 @@ namespace IdentityRoleAuthorization.Models.Dtos
 
         [Display(Name = "Manufacturing Date")]
         [DataType(DataType.Date)]
-        public DateTime ManufacturingDate { get; set; }
+        public DateTime DatePosted { get; set; }
     }
 }
 

@@ -1,6 +1,8 @@
 using IdentityRoleAuthorization.Data;
+using IdentityRoleAuthorization.Data.Context;
 using IdentityRoleAuthorization.Models;
-using IdentityRoleAuthorization.Services;
+using IdentityRoleAuthorization.Service.Services.Implementations;
+using IdentityRoleAuthorization.Service.Services.interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
