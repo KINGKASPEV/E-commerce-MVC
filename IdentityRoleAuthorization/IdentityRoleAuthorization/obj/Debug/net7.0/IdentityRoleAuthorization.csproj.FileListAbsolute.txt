@@ -94,6 +94,7 @@ C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAutho
 C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization\bin\Debug\net7.0\Azure.Core.dll
 C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization\bin\Debug\net7.0\Azure.Identity.dll
 C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization\bin\Debug\net7.0\Humanizer.dll
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.Google.dll
 C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization\bin\Debug\net7.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
@@ -380,4 +381,3 @@ C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAutho
 C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization\obj\Debug\net7.0\IdentityRoleAuthorization.pdb
 C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization\obj\Debug\net7.0\IdentityRoleAuthorization.genruntimeconfig.cache
 C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization\obj\Debug\net7.0\ref\IdentityRoleAuthorization.dll
-C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.Google.dll

@@ -91,7 +91,7 @@ namespace IdentityRoleAuthorization.Controllers
         }
 
         //[HttpPost]
-        [Authorize("Admin")]
+       //Authorize("Admin")]
         public async Task<IActionResult> DeleteAll()
         {
             var allProducts = await _productService.GetProductsAsync();
@@ -99,7 +99,7 @@ namespace IdentityRoleAuthorization.Controllers
         }
 
         //[HttpPost]
-        [Authorize("Admin")]
+        //uthorize("Admin")]
         public async Task<IActionResult> ConfirmDeleteAll()
         {
             await _productService.DeleteAllProductAsync();
