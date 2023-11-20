@@ -6,9 +6,9 @@ namespace IdentityRoleAuthorization.Service.Services.interfaces
     {
         Task AddProductAsync(ProductRequestDto productRequestDto);
         Task<IEnumerable<ProductResponseDto>> GetProductsAsync();
-        Task<ProductResponseDto> GetByIdAsync(string productId);
-        Task UpdateProductAsync(string productId, ProductRequestDto productRequestDto);
-        Task DeleteProductAsync(string productId);
+        Task<ProductResponseDto> GetByIdAsync(int productId);
+        Task UpdateProductAsync(int productId, ProductRequestDto productRequestDto);
+        Task DeleteProductAsync(int productId);
         Task<IEnumerable<ProductResponseDto>> DeleteAllProductAsync();
     }
 }

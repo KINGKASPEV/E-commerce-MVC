@@ -184,8 +184,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/My-project/Register-Login-Authentication/IdentityRoleAuthorization/IdentityRoleAuthorization/Views/Product/GetAll.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxHZXRBbGwuY3NodG1s
+[C:/Users/user/Desktop/My-project/Register-Login-Authentication/IdentityRoleAuthorization/IdentityRoleAuthorization/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/My-project/Register-Login-Authentication/IdentityRoleAuthorization/IdentityRoleAuthorization/Views/Product/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/My-project/Register-Login-Authentication/IdentityRoleAuthorization/IdentityRoleAuthorization/Views/Product/DeleteAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZWxldGVBbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/My-project/Register-Login-Authentication/IdentityRoleAuthorization/IdentityRoleAuthorization/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/My-project/Register-Login-Authentication/IdentityRoleAuthorization/IdentityRoleAuthorization/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/My-project/Register-Login-Authentication/IdentityRoleAuthorization/IdentityRoleAuthorization/Views/Product/GetAllProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxHZXRBbGxQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/user/Desktop/My-project/Register-Login-Authentication/IdentityRoleAuthorization/IdentityRoleAuthorization/Views/Shared/Error.cshtml]

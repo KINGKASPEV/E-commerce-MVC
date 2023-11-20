@@ -31,13 +31,13 @@ namespace IdentityRoleAuthorization.Data.Repositories.Implementations
            return await _context.Products.ToListAsync();
         }
 
-        public async Task<Product> GetByIdAsync(string Id)
+        public async Task<Product> GetByIdAsync(int Id)
         {
             return await _context.Products.FindAsync(Id);
         }
 
 
-        public async Task UpdateProductAsync(string Id, Product product)
+        public async Task UpdateProductAsync(int Id, Product product)
         {
             var productUpdate = await _context.Products.FindAsync(Id);
             if(productUpdate != null)

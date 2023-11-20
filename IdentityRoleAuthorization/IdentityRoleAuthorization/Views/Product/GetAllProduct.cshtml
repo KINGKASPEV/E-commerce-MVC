@@ -1,0 +1,58 @@
+﻿@model IEnumerable<IdentityRoleAuthorization.Models.Dtos.ProductResponseDto>
+
+@{
+    ViewData["Title"] = "GetAllProduct";
+}
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">List of Products</h1>
+
+    <div class="row mb-3">
+        <div class="col text-start">
+            <a asp-action="Create" class="btn btn-primary">Create New</a>
+        </div>
+        <div class="col text-end">
+            <form asp-action="DeleteAll" method="post">
+                <button type="submit" class="btn btn-danger">Delete All</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>In Stock</th>
+                    <th>Manufacturing Date</th>
+                    <th>Total Value</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Name</td>
+                        <td>@item.Description</td>
+                        <td>@item.Price.ToString("C")</td>
+                        <td>@item.InStock</td>
+                        <td>@item.ManufacturingDate.ToShortDateString()</td>
+                        <td>@item.TotalValue.ToString("C")</td>
+                        <td>
+                            <div class="btn-group" role="group">
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Edit</a>
+                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Details</a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

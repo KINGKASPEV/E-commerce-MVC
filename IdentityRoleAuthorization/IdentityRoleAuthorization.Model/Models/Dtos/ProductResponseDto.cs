@@ -1,16 +1,21 @@
-﻿namespace IdentityRoleAuthorization.Models.Dtos
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace IdentityRoleAuthorization.Models.Dtos
 {
     public class ProductResponseDto
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
+
+        [Range(0, double.MaxValue, ErrorMessage = "Price must be a non-negative value.")]
+        [DisplayFormat(DataFormatString = "{0:C}", ApplyFormatInEditMode = true)] // Currency format
         public decimal Price { get; set; }
         public int InStock { get; set; }
-        public DateTime ManufacturingDate { get; set; }
-        public decimal TotalValue { get; set; } 
+        public DateTime ManufacturingDate { get; set; } = DateTime.Now;
 
-        //public decimal TotalValue { get; }
+        [DisplayFormat(DataFormatString = "{0:C}", ApplyFormatInEditMode = true)]
+        public decimal TotalValue => Price * InStock;
 
     }
 }

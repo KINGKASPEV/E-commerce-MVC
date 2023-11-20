@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UPi5AkgTvqOHNdgTlXdNdb1DKTJnFBJ16XjMylat1YQ=",
+  "Hash": "6D5XbRUIB02AgB+ie+nl4W0F8sbsAHayWKPO4Kqk2as=",
   "Source": "IdentityRoleAuthorization",
   "BasePath": "_content/IdentityRoleAuthorization",
   "Mode": "Default",
@@ -2123,6 +2123,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\9050721b-1f96-4a66-a9c4-8678267666d9.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\bdfad7c0-a993-4214-a8a2-c42ba5543b1d.jpg",
+      "SourceId": "IdentityRoleAuthorization",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\",
+      "BasePath": "_content/IdentityRoleAuthorization",
+      "RelativePath": "Uploads/bdfad7c0-a993-4214-a8a2-c42ba5543b1d.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\bdfad7c0-a993-4214-a8a2-c42ba5543b1d.jpg"
     }
   ]
 }

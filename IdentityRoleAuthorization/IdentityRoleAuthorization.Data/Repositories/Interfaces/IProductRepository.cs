@@ -7,8 +7,8 @@ namespace IdentityRoleAuthorization.Data.Repositories.Interfaces
         Task AddProductAsync(Product product);
         Task DeleteProductAsync(Product product);
         Task<IEnumerable<Product>> GetProductsAsync();
-        Task<Product> GetByIdAsync(string Id);
-        Task UpdateProductAsync(string Id, Product product);
+        Task<Product> GetByIdAsync(int Id);
+        Task UpdateProductAsync(int Id, Product product);
         Task<IEnumerable<Product>> DeleteAllProductAsync();
     }
 }

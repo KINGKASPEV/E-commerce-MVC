@@ -1,5 +1,7 @@
 using IdentityRoleAuthorization.Data;
 using IdentityRoleAuthorization.Data.Context;
+using IdentityRoleAuthorization.Data.Repositories.Implementations;
+using IdentityRoleAuthorization.Data.Repositories.Interfaces;
 using IdentityRoleAuthorization.Models;
 using IdentityRoleAuthorization.Service.Services.Implementations;
 using IdentityRoleAuthorization.Service.Services.interfaces;
@@ -16,12 +18,22 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 //builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultUI()
     .AddDefaultTokenProviders();
 builder.Services.AddScoped<IFileService, FileService>();
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddAuthentication().AddGoogle(options =>
+{
+    options.ClientId = "1013008580996-0c241838hsbd0m7unq7468un4dmvhrko.apps.googleusercontent.com";
+    options.ClientSecret = "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";
+});
+
 
 var app = builder.Build();
 
@@ -48,6 +60,7 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
+
 
 using (var scope = app.Services.CreateScope())
 {

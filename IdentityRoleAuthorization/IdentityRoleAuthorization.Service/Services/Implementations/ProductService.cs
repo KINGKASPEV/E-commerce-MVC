@@ -26,19 +26,19 @@ namespace IdentityRoleAuthorization.Service.Services.Implementations
             return MapToProductResponseDtos(products);
         }
 
-        public async Task<ProductResponseDto> GetByIdAsync(string productId)
+        public async Task<ProductResponseDto> GetByIdAsync(int productId)
         {
             var product =  await _productRepository.GetByIdAsync(productId);
             return MapToProductResponseDto(product);
         }
 
-        public async Task UpdateProductAsync(string productId, ProductRequestDto productRequestDto)
+        public async Task UpdateProductAsync(int productId, ProductRequestDto productRequestDto)
         {
             var product = MapToProduct(productRequestDto);
             await _productRepository.UpdateProductAsync(productId, product);
         }
 
-        public async Task DeleteProductAsync(string productId)
+        public async Task DeleteProductAsync(int productId)
         {
             var product =await _productRepository.GetByIdAsync(productId);
             if (product != null)
@@ -80,7 +80,6 @@ namespace IdentityRoleAuthorization.Service.Services.Implementations
                 Price = product.Price,
                 InStock = product.InStock,
                 ManufacturingDate = product.DatePosted,
-                TotalValue = product.Price * product.InStock
             };
         }
 

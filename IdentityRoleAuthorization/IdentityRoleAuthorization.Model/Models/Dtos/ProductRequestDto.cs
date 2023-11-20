@@ -11,6 +11,7 @@ namespace IdentityRoleAuthorization.Models.Dtos
         public string Description { get; set; }
 
         [Range(0, double.MaxValue, ErrorMessage = "Price must be a non-negative value.")]
+        [DisplayFormat(DataFormatString = "{0:C}", ApplyFormatInEditMode = true)] // Currency format
         public decimal Price { get; set; }
 
         [Display(Name = "In Stock")]
@@ -19,7 +20,7 @@ namespace IdentityRoleAuthorization.Models.Dtos
 
         [Display(Name = "Manufacturing Date")]
         [DataType(DataType.Date)]
-        public DateTime DatePosted { get; set; }
+        public DateTime DatePosted { get; set; } = DateTime.Now;
     }
 }
 

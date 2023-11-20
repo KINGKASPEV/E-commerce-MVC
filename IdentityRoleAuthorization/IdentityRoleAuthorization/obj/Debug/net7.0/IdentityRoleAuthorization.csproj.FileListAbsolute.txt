@@ -380,3 +380,4 @@ C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAutho
 C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization\obj\Debug\net7.0\IdentityRoleAuthorization.pdb
 C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization\obj\Debug\net7.0\IdentityRoleAuthorization.genruntimeconfig.cache
 C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization\obj\Debug\net7.0\ref\IdentityRoleAuthorization.dll
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.Google.dll
