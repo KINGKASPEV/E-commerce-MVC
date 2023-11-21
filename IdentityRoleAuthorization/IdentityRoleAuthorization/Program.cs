@@ -1,3 +1,5 @@
+using Ecommerce.Service.Services.Implementations;
+using Ecommerce.Service.Services.interfaces;
 using IdentityRoleAuthorization.Data;
 using IdentityRoleAuthorization.Data.Context;
 using IdentityRoleAuthorization.Data.Repositories.Implementations;
@@ -20,6 +22,7 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()

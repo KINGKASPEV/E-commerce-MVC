@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hsIt14SFc1KG6D2WpW+5EGrr5UiXVyiwKVQAkeoCQKKBnOwPX9XE6FQaFNyZ80jKsADabtcY9+OMHSBK5jPFmg==",
+  "dgSpecHash": "c1fCdRU4c1kou7/fYTObhQ4MXicEF8csjwobcAGu3Mlcd5PnPaO5DhmC8pHPv2t82DhWhfHn/vZrIxwdipBG5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization.Model\\IdentityRoleAuthorization.Model.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization.Model\\Ecommerce.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

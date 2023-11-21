@@ -12017,9 +12017,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization.Model\\IdentityRoleAuthorization.Model.csproj",
-      "projectName": "IdentityRoleAuthorization.Model",
-      "projectPath": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization.Model\\IdentityRoleAuthorization.Model.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization.Model\\Ecommerce.Model.csproj",
+      "projectName": "Ecommerce.Model",
+      "projectPath": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization.Model\\Ecommerce.Model.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization.Model\\obj\\",
       "projectStyle": "PackageReference",

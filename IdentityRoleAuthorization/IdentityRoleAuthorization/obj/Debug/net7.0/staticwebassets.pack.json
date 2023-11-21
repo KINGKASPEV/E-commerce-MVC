@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\IdentityRoleAuthorization.bundle.scp.css",
-      "PackagePath": "staticwebassets\\IdentityRoleAuthorization.bundle.scp.css"
+      "Id": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ECommerce.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ECommerce.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\818c0674-4e64-45a7-b1fd-fed99e110d31.jpg",
@@ -17,8 +17,16 @@
       "PackagePath": "staticwebassets\\Uploads\\9050721b-1f96-4a66-a9c4-8678267666d9.jpg"
     },
     {
+      "Id": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\9147d1a4-a4a2-45c9-97dc-126f24870f72.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\9147d1a4-a4a2-45c9-97dc-126f24870f72.jpg"
+    },
+    {
       "Id": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\bdfad7c0-a993-4214-a8a2-c42ba5543b1d.jpg",
       "PackagePath": "staticwebassets\\Uploads\\bdfad7c0-a993-4214-a8a2-c42ba5543b1d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\d2fae847-cd03-401a-b615-4fb6a8015def.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\d2fae847-cd03-401a-b615-4fb6a8015def.jpg"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\css\\site.css",
@@ -261,20 +269,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.IdentityRoleAuthorization.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ECommerce.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.IdentityRoleAuthorization.props",
-      "PackagePath": "build\\IdentityRoleAuthorization.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ECommerce.props",
+      "PackagePath": "build\\ECommerce.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.IdentityRoleAuthorization.props",
-      "PackagePath": "buildMultiTargeting\\IdentityRoleAuthorization.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ECommerce.props",
+      "PackagePath": "buildMultiTargeting\\ECommerce.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.IdentityRoleAuthorization.props",
-      "PackagePath": "buildTransitive\\IdentityRoleAuthorization.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ECommerce.props",
+      "PackagePath": "buildTransitive\\ECommerce.props"
     }
   ],
   "ElementsToRemove": []

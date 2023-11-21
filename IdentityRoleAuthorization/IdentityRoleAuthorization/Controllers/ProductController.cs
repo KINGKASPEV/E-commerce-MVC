@@ -90,16 +90,12 @@ namespace IdentityRoleAuthorization.Controllers
             return RedirectToAction(nameof(GetAllProduct));
         }
 
-        //[HttpPost]
-       //Authorize("Admin")]
         public async Task<IActionResult> DeleteAll()
         {
             var allProducts = await _productService.GetProductsAsync();
             return View("DeleteAll", allProducts);
         }
 
-        //[HttpPost]
-        //uthorize("Admin")]
         public async Task<IActionResult> ConfirmDeleteAll()
         {
             await _productService.DeleteAllProductAsync();

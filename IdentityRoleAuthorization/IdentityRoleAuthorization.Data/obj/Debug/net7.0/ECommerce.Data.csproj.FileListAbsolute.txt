@@ -1,0 +1,17 @@
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\bin\Debug\net7.0\ECommerce.Data.deps.json
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\bin\Debug\net7.0\ECommerce.Data.runtimeconfig.json
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\bin\Debug\net7.0\ECommerce.Data.dll
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\bin\Debug\net7.0\ECommerce.Data.pdb
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\bin\Debug\net7.0\Ecommerce.Model.dll
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\bin\Debug\net7.0\Ecommerce.Model.pdb
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\obj\Debug\net7.0\ECommerce.Data.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\obj\Debug\net7.0\ECommerce.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\obj\Debug\net7.0\ECommerce.Data.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\obj\Debug\net7.0\ECommerce.Data.AssemblyInfo.cs
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\obj\Debug\net7.0\ECommerce.Data.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\obj\Debug\net7.0\ECommerce.Data.csproj.CopyComplete
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\obj\Debug\net7.0\ECommerce.Data.dll
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\obj\Debug\net7.0\refint\ECommerce.Data.dll
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\obj\Debug\net7.0\ECommerce.Data.pdb
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\obj\Debug\net7.0\ECommerce.Data.genruntimeconfig.cache
+C:\Users\user\Desktop\My-project\Register-Login-Authentication\IdentityRoleAuthorization\IdentityRoleAuthorization.Data\obj\Debug\net7.0\ref\ECommerce.Data.dll

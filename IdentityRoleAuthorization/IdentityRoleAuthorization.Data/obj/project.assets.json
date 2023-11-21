@@ -4229,7 +4229,7 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "IdentityRoleAuthorization.Model/1.0.0": {
+      "Ecommerce.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -4242,10 +4242,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.9"
         },
         "compile": {
-          "bin/placeholder/IdentityRoleAuthorization.Model.dll": {}
+          "bin/placeholder/Ecommerce.Model.dll": {}
         },
         "runtime": {
-          "bin/placeholder/IdentityRoleAuthorization.Model.dll": {}
+          "bin/placeholder/Ecommerce.Model.dll": {}
         }
       }
     }
@@ -12016,15 +12016,15 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "IdentityRoleAuthorization.Model/1.0.0": {
+    "Ecommerce.Model/1.0.0": {
       "type": "project",
-      "path": "../IdentityRoleAuthorization.Model/IdentityRoleAuthorization.Model.csproj",
-      "msbuildProject": "../IdentityRoleAuthorization.Model/IdentityRoleAuthorization.Model.csproj"
+      "path": "../IdentityRoleAuthorization.Model/Ecommerce.Model.csproj",
+      "msbuildProject": "../IdentityRoleAuthorization.Model/Ecommerce.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "IdentityRoleAuthorization.Model >= 1.0.0",
+      "Ecommerce.Model >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.Google >= 7.0.13",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 7.0.13",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.13",
@@ -12042,9 +12042,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization.Data\\IdentityRoleAuthorization.Data.csproj",
-      "projectName": "IdentityRoleAuthorization.Data",
-      "projectPath": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization.Data\\IdentityRoleAuthorization.Data.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization.Data\\ECommerce.Data.csproj",
+      "projectName": "ECommerce.Data",
+      "projectPath": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization.Data\\ECommerce.Data.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization.Data\\obj\\",
       "projectStyle": "PackageReference",
@@ -12063,8 +12063,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization.Model\\IdentityRoleAuthorization.Model.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization.Model\\IdentityRoleAuthorization.Model.csproj"
+            "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization.Model\\Ecommerce.Model.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization.Model\\Ecommerce.Model.csproj"
             }
           }
         }
