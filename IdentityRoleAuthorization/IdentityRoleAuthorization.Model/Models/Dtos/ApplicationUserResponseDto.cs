@@ -1,11 +1,21 @@
-﻿namespace Ecommerce.Model.Models.Dtos
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Ecommerce.Model.Models.Dtos
 {
-	public class ApplicationUserResponseDto
-	{
-		public string Id { get; set; }
-		public string Name { get; set; }
-		public string Email { get; set; }
-		public string PhoneNumber { get; set; }
-		public string ProfileProfile { get; set; }
-	}
+    public class ApplicationUserResponseDto
+    {
+        public string Id { get; set; }
+
+        [Required(ErrorMessage = "Name is required.")]
+        public string Name { get; set; }
+
+        [Required(ErrorMessage = "Email is required.")]
+        [EmailAddress(ErrorMessage = "Invalid email address.")]
+        public string Email { get; set; }
+
+        [Phone(ErrorMessage = "Invalid phone number.")]
+        public string PhoneNumber { get; set; }
+
+        public string ProfileProfile { get; set; }
+    }
 }
