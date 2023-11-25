@@ -5,8 +5,20 @@
       "PackagePath": "staticwebassets\\ECommerce.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\1ba0ca9c-fef0-4adb-880f-554ef462332b.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\1ba0ca9c-fef0-4adb-880f-554ef462332b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\727cfc3b-9c03-45c4-83f6-89d76f6f54d5.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\727cfc3b-9c03-45c4-83f6-89d76f6f54d5.jpg"
+    },
+    {
       "Id": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\818c0674-4e64-45a7-b1fd-fed99e110d31.jpg",
       "PackagePath": "staticwebassets\\Uploads\\818c0674-4e64-45a7-b1fd-fed99e110d31.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\861280a9-b7fc-4036-8822-d89274a9c919.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\861280a9-b7fc-4036-8822-d89274a9c919.jpeg"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\8f27adf5-cca2-47b0-a1e1-4d5f1eac4006.jpg",
@@ -19,6 +31,10 @@
     {
       "Id": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\9147d1a4-a4a2-45c9-97dc-126f24870f72.jpg",
       "PackagePath": "staticwebassets\\Uploads\\9147d1a4-a4a2-45c9-97dc-126f24870f72.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\a8a94290-dd4c-4e5e-b79a-8c069f2d4f74.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\a8a94290-dd4c-4e5e-b79a-8c069f2d4f74.jpg"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\bdfad7c0-a993-4214-a8a2-c42ba5543b1d.jpg",

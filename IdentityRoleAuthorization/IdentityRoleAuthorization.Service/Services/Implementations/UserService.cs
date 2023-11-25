@@ -4,17 +4,20 @@ using IdentityRoleAuthorization.Constants;
 using IdentityRoleAuthorization.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace Ecommerce.Service.Services.Implementations
 {
 	public class UserService : IUserService
 	{
 		private readonly UserManager<ApplicationUser> _userManager;
+        private readonly ILogger<ApplicationUser> _logger;
 
-		public UserService(UserManager<ApplicationUser> userManager)
+        public UserService(UserManager<ApplicationUser> userManager, ILogger<ApplicationUser> logger)
 		{
 			_userManager = userManager;
-		}
+            _logger = logger;
+        }
 
 		public async Task<IdentityResult> CreateUserAsync(ApplicationUserRequestDto userDto)
 		{
@@ -78,9 +81,11 @@ namespace Ecommerce.Service.Services.Implementations
 
 		public async Task<IdentityResult> DeleteUserAsync(string userId)
 		{
-			var user = await _userManager.FindByIdAsync(userId);
+            _logger.LogInformation($"Deleting user with ID: {userId}");
 
-			if (user == null)
+            var user = await _userManager.FindByIdAsync(userId);
+           
+            if (user == null)
 			{
 				return IdentityResult.Failed();
 			}

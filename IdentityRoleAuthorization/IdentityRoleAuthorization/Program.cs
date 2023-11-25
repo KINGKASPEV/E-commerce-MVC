@@ -28,8 +28,14 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultUI()
     .AddDefaultTokenProviders();
+
 builder.Services.AddScoped<IFileService, FileService>();
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddLogging(builder =>
+{
+    builder.AddConsole().SetMinimumLevel(LogLevel.Error);
+});
 
 builder.Services.AddAuthentication().AddGoogle(options =>
 {

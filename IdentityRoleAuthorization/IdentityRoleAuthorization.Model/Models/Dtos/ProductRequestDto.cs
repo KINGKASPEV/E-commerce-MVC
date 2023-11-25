@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Http;
+using System.ComponentModel.DataAnnotations;
 
 namespace IdentityRoleAuthorization.Models.Dtos
 {
@@ -7,7 +8,7 @@ namespace IdentityRoleAuthorization.Models.Dtos
         [Required(ErrorMessage = "Name is required.")]
         public string Name { get; set; }
 
-        [MaxLength(255, ErrorMessage = "Description cannot exceed 255 characters.")]
+        [MaxLength(5000, ErrorMessage = "Description cannot exceed 5000 characters.")]
         public string Description { get; set; }
 
         [Range(0, double.MaxValue, ErrorMessage = "Price must be a non-negative value.")]
@@ -21,6 +22,9 @@ namespace IdentityRoleAuthorization.Models.Dtos
         [Display(Name = "Manufacturing Date")]
         [DataType(DataType.Date)]
         public DateTime DatePosted { get; set; } = DateTime.Now;
+
+        [Display(Name = "Product Image")]
+        public IFormFile ImageFile { get; set; }
     }
 }
 

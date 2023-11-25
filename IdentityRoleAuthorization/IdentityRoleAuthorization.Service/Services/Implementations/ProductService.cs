@@ -8,10 +8,12 @@ namespace IdentityRoleAuthorization.Service.Services.Implementations
     public class ProductService : IProductService
     {
         private readonly IProductRepository _productRepository;
+        private readonly IFileService _fileService;
 
-        public ProductService(IProductRepository productRepository)
+        public ProductService(IProductRepository productRepository, IFileService fileService)
         {
             _productRepository = productRepository;
+            _fileService = fileService;
         }
 
         public async Task AddProductAsync(ProductRequestDto productRequestDto)
@@ -55,15 +57,19 @@ namespace IdentityRoleAuthorization.Service.Services.Implementations
 
         private Product MapToProduct(ProductRequestDto productRequestDto)
         {
+            var imageSaveResult = productRequestDto.ImageFile != null ? _fileService.SaveImage(productRequestDto.ImageFile) : null;
+
             return new Product
             {
                 Name = productRequestDto.Name,
                 Description = productRequestDto.Description,
                 Price = productRequestDto.Price,
                 InStock = productRequestDto.InStock,
-                DatePosted = productRequestDto.DatePosted
+                DatePosted = productRequestDto.DatePosted,
+                ImageFileName = imageSaveResult != null ? imageSaveResult.Item2 : null
             };
         }
+
 
         private ProductResponseDto MapToProductResponseDto(Product product)
         {
@@ -80,6 +86,7 @@ namespace IdentityRoleAuthorization.Service.Services.Implementations
                 Price = product.Price,
                 InStock = product.InStock,
                 ManufacturingDate = product.DatePosted,
+                ImageFileName = product.ImageFileName,
             };
         }
 

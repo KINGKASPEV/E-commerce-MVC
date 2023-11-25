@@ -54,6 +54,7 @@ namespace IdentityRoleAuthorization.Service.Services.Implementations
             {
                 var wwwPath = environment.WebRootPath;
                 var path = Path.Combine(wwwPath, "Uploads\\", imageFileName);
+
                 if (File.Exists(path))
                 {
                     File.Delete(path);

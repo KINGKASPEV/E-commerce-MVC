@@ -29,6 +29,7 @@
                     <th>In Stock</th>
                     <th>Manufacturing Date</th>
                     <th>Total Value</th>
+                    <th>Image</th>
                     <th>Actions</th>
                 </tr>
             </thead>
@@ -38,11 +39,21 @@
                     <tr>
                         <td>@item.Id</td>
                         <td>@item.Name</td>
-                        <td>@item.Description</td>
+                        <td>@(item.Description.Length > 50 ? $"{item.Description.Substring(0, 50)}..." : item.Description)</td>
                         <td>@item.Price.ToString("C")</td>
                         <td>@item.InStock</td>
                         <td>@item.ManufacturingDate.ToShortDateString()</td>
                         <td>@item.TotalValue.ToString("C")</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(item.ImageFileName))
+                            {
+                                <img src="~/Uploads/@item.ImageFileName" alt="@item.Name" style="max-height: 50px; max-width: 50px;" />
+                            }
+                            else
+                            {
+                                <span>No Image</span>
+                            }
+                        </td>
                         <td>
                             <div class="btn-group" role="group">
                                 <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Edit</a>

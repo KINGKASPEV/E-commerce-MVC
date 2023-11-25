@@ -8,55 +8,72 @@
     <h1 class="text-center mb-4">Product Details</h1>
 
     <div>
-        <hr />
-        <dl class="row">
-            <dt class="col-sm-2">
-                @Html.DisplayNameFor(model => model.Id)
-            </dt>
-            <dd class="col-sm-10">
-                @Html.DisplayFor(model => model.Id)
-            </dd>
-            <dt class="col-sm-2">
-                @Html.DisplayNameFor(model => model.Name)
-            </dt>
-            <dd class="col-sm-10">
-                @Html.DisplayFor(model => model.Name)
-            </dd>
-            <dt class="col-sm-2">
-                @Html.DisplayNameFor(model => model.Description)
-            </dt>
-            <dd class="col-sm-10">
-                @Html.DisplayFor(model => model.Description)
-            </dd>
-            <dt class="col-sm-2">
-                @Html.DisplayNameFor(model => model.Price)
-            </dt>
-            <dd class="col-sm-10">
-                @Html.DisplayFor(model => model.Price)
-            </dd>
-            <dt class="col-sm-2">
-                @Html.DisplayNameFor(model => model.InStock)
-            </dt>
-            <dd class="col-sm-10">
-                @Html.DisplayFor(model => model.InStock)
-            </dd>
-            <dt class="col-sm-2">
-                @Html.DisplayNameFor(model => model.ManufacturingDate)
-            </dt>
-            <dd class="col-sm-10">
-                @Html.DisplayFor(model => model.ManufacturingDate)
-            </dd>
-            <dt class="col-sm-2">
-                @Html.DisplayNameFor(model => model.TotalValue)
-            </dt>
-            <dd class="col-sm-10">
-                @Html.DisplayFor(model => model.TotalValue)
-            </dd>
-        </dl>
+       @*  <hr /> *@
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Left column for the image -->
+                @if (!string.IsNullOrEmpty(Model.ImageFileName))
+                {
+                    <img src="~/Uploads/@Model.ImageFileName" alt="Product Image" class="img-fluid" style="max-width: 100%; height: auto;" />
+                }
+                else
+                {
+                    <p>No image available</p>
+                }
+            </div>
+            <div class="col-md-6">
+                <!-- Right column for other details -->
+                <dl class="row">
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.Name)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.Name)
+                    </dd>
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.Description)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.Raw(Model.Description.Replace("\n", "<br />"))
+                    </dd>
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.Price)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.Price)
+                    </dd>
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.InStock)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.InStock)
+                    </dd>
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.ManufacturingDate)
+                    </dt>
+                    <dd class="col-sm-10" style="margin-top: 10px;">
+                        @Html.DisplayFor(model => model.ManufacturingDate)
+                    </dd>
+                    <dt class="col-sm-2">
+                        @Html.DisplayNameFor(model => model.TotalValue)
+                    </dt>
+                    <dd class="col-sm-10">
+                        @Html.DisplayFor(model => model.TotalValue)
+                    </dd>
+                   @*  <div class="col-sm-12 mt-3">
+                        <a href="#" class="btn btn-success">Buy Now</a>
+                    </div> *@
+                </dl>
+            </div>
+        </div>
     </div>
 
-    <div class="text-center mt-4">
-        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a> |
-        <a asp-action="GetAllProduct" class="btn btn-secondary">Back to List</a>
+    <div class="text-center mt-3">
+        <a href="https://paystack.com/pay/tsz6xd123z" class="btn btn-success">Buy Now</a>
     </div>
+
+    @* <div class="text-center mt-4">
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+        <a asp-action="GetAllProduct" class="btn btn-secondary">Back to List</a>
+    </div> *@
 </div>

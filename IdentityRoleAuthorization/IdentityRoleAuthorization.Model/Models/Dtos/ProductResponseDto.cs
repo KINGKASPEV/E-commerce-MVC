@@ -12,6 +12,7 @@ namespace IdentityRoleAuthorization.Models.Dtos
         [DisplayFormat(DataFormatString = "{0:C}", ApplyFormatInEditMode = true)] 
         public decimal Price { get; set; }
         public int InStock { get; set; }
+        public string ImageFileName { get; set; }
         public DateTime ManufacturingDate { get; set; } = DateTime.Now;
 
         [DisplayFormat(DataFormatString = "{0:C}", ApplyFormatInEditMode = true)]

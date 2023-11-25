@@ -107,23 +107,16 @@ namespace ECommerce.Controllers
         [HttpPost]
         public async Task<IActionResult> Delete(string userId)
         {
-            var result = await _userService.DeleteUserAsync(userId);
-
-            if (result.Succeeded)
+            try
             {
+                await _userService.DeleteUserAsync(userId);
                 return RedirectToAction("AllUsers");
             }
-
-            var user = await _userService.GetUserByIdAsync(userId);
-
-            if (user == null)
+            catch (Exception ex)
             {
+                ModelState.AddModelError(string.Empty, "Failed to delete the user.");
                 return RedirectToAction("AllUsers");
             }
-
-            ModelState.AddModelError(string.Empty, "Failed to delete the user.");
-
-            return View("DeleteConfirmation", user);
         }
 
     }

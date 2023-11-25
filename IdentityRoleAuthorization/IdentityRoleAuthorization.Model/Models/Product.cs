@@ -11,5 +11,6 @@ namespace IdentityRoleAuthorization.Models
         public decimal Price { get; set; }
         public int InStock { get; set; }
         public DateTime DatePosted { get; set; }
+        public string ImageFileName { get; set; }
     }
 }
