@@ -18,17 +18,42 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: blanchedalmond;
 }
 
 
 .footer {
-    padding: 10px 0;
-    background-color: #f8f9fa;
+    padding: 20px 0;
+    background-color: black;
     text-align: center;
-    color: #868e96;
+    color: white;
     font-size: 14px;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-collapse {
+    justify-content: space-between;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-link {
+    color: #f8f9fa;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+   color: #007bff;
+}
+
+

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s8GvqKEorlLKecXsnq3bbf3RqDcg2Rh5ZkZEPaTsZyM=",
+  "Hash": "B9Mvwu3JFcnHG87q8JMuFO4j+TW7oSTfQ4sgL4hQnos=",
   "Source": "ECommerce",
   "BasePath": "_content/ECommerce",
   "Mode": "Default",
@@ -1088,6 +1088,23 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\css\\styles.css",
+      "SourceId": "ECommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
       "Identity": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\favicon.ico",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
@@ -2091,6 +2108,23 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\088b7414-e88a-402d-a69d-b9cca72f3f07.png",
+      "SourceId": "ECommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "RelativePath": "Uploads/088b7414-e88a-402d-a69d-b9cca72f3f07.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\088b7414-e88a-402d-a69d-b9cca72f3f07.png"
+    },
+    {
       "Identity": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\1ba0ca9c-fef0-4adb-880f-554ef462332b.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
@@ -2108,6 +2142,23 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\1ba0ca9c-fef0-4adb-880f-554ef462332b.jpg"
     },
     {
+      "Identity": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\2aad19d4-e516-4ea9-a114-e2d5fd8a9028.png",
+      "SourceId": "ECommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "RelativePath": "Uploads/2aad19d4-e516-4ea9-a114-e2d5fd8a9028.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\2aad19d4-e516-4ea9-a114-e2d5fd8a9028.png"
+    },
+    {
       "Identity": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\727cfc3b-9c03-45c4-83f6-89d76f6f54d5.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
@@ -2123,6 +2174,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\727cfc3b-9c03-45c4-83f6-89d76f6f54d5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\7ba8b120-c82d-4faf-8638-1e3f4d6dec7e.jpg",
+      "SourceId": "ECommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "RelativePath": "Uploads/7ba8b120-c82d-4faf-8638-1e3f4d6dec7e.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\7ba8b120-c82d-4faf-8638-1e3f4d6dec7e.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\7e2136ca-a205-4950-8047-827488d3d1c4.jpg",
+      "SourceId": "ECommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "RelativePath": "Uploads/7e2136ca-a205-4950-8047-827488d3d1c4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\7e2136ca-a205-4950-8047-827488d3d1c4.jpg"
     },
     {
       "Identity": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\818c0674-4e64-45a7-b1fd-fed99e110d31.jpg",
@@ -2210,6 +2295,23 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\9147d1a4-a4a2-45c9-97dc-126f24870f72.jpg"
     },
     {
+      "Identity": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\93385d36-1775-43d0-a6bc-03ba8251eb8a.png",
+      "SourceId": "ECommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "RelativePath": "Uploads/93385d36-1775-43d0-a6bc-03ba8251eb8a.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\93385d36-1775-43d0-a6bc-03ba8251eb8a.png"
+    },
+    {
       "Identity": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\a8a94290-dd4c-4e5e-b79a-8c069f2d4f74.jpg",
       "SourceId": "ECommerce",
       "SourceType": "Discovered",
@@ -2225,6 +2327,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\a8a94290-dd4c-4e5e-b79a-8c069f2d4f74.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\b1d3e441-dd4e-4a45-bdb9-f02e3fc8bb69.png",
+      "SourceId": "ECommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "RelativePath": "Uploads/b1d3e441-dd4e-4a45-bdb9-f02e3fc8bb69.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\b1d3e441-dd4e-4a45-bdb9-f02e3fc8bb69.png"
     },
     {
       "Identity": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\bdfad7c0-a993-4214-a8a2-c42ba5543b1d.jpg",
@@ -2259,6 +2378,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\d2fae847-cd03-401a-b615-4fb6a8015def.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\Uploads\\f79acdde-64ae-4dae-a5d1-83d55ed8f248.jpg",
+      "SourceId": "ECommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "RelativePath": "Uploads/f79acdde-64ae-4dae-a5d1-83d55ed8f248.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\f79acdde-64ae-4dae-a5d1-83d55ed8f248.jpg"
     }
   ]
 }

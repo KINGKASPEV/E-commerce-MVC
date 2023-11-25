@@ -1,9 +1,116 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+	ViewData["Title"] = "Home Page";
 }
 
-@* <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
- *@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - E-commerce</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+</head>
+<body>
+	<div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="5000">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="https://img.freepik.com/free-photo/black-friday-arrangement-with-shopping-bags_23-2148666974.jpg" class="d-block w-100" alt="Slide 1">,
+				<div class="carousel-caption d-none d-md-block text-center">
+					<h5 class="font-weight-bold text-uppercase mb-4" style="color: blanchedalmond;">Welcome to De Royals Shopping Malls</h5>
+					<p class="font-weight-bold" style="color: blanchedalmond;">
+						Embark on a journey of style and sophistication at De Royals Shopping Malls. Immerse yourself in the latest fashion trends, indulge in premium shopping, and savor the unparalleled convenience we offer. Your gateway to a delightful shopping experience begins here!
+					</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="https://img.freepik.com/free-photo/closeup-shot-two-pretty-afro-american-girls-using-their-phones-while-holding-shopping-bags_181624-46178.jpg?size=626&ext=jpg&uid=R122309561&ga=GA1.1.1354882028.1699986961&semt=ais" class="d-block w-100" alt="Slide 4">
+			</div>
+			<div class="carousel-item">
+				<img src="https://img.freepik.com/premium-photo/top-view-online-shopping-concept-with-credit-card-smart-phone-computer-isolated-office-yellow-table-background_315337-3591.jpg?size=626&ext=jpg&uid=R122309561&ga=GA1.1.1354882028.1699986961&semt=ais" class="d-block w-100" alt="Slide 2">
+				<div class="carousel-caption d-none d-md-block text-left">
+					<h5 class="font-weight-bold text-uppercase mb-4" style="color: black;">Welcome to De Royals Shopping Malls</h5>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="https://img.freepik.com/free-photo/laptop-near-smartphone-tags-tablet-packet_23-2147961975.jpg?size=626&ext=jpg&uid=R122309561&ga=GA1.1.1354882028.1699986961&semt=ais" class="d-block w-100" alt="Slide 3">
+			</div>
+			<div class="carousel-item">
+				<img src="https://img.freepik.com/free-photo/shopping-trolleys-packets-tags_23-2147961897.jpg?size=626&ext=jpg&uid=R122309561&ga=GA1.1.1354882028.1699986961&semt=ais" class="d-block w-100" alt="Slide 4">
+			</div>
+			<div class="carousel-item">
+				<img src="https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074075.jpg?size=626&ext=jpg&uid=R122309561&ga=GA1.1.1354882028.1699986961&semt=ais" class="d-block w-100" alt="Slide 4">
+			</div>
+			<div class="carousel-item">
+				<img src="https://img.freepik.com/free-photo/arrangement-black-friday-shopping-carts-with-copy-space_23-2148667047.jpg?size=626&ext=jpg&uid=R122309561&ga=GA1.1.1354882028.1699986961&semt=ais" class="d-block w-100" alt="Slide 4">
+			</div>
+			<div class="carousel-item">
+				<img src="https://img.freepik.com/premium-photo/hand-holding-online-shopping-smartphone-digital-marketing-concept-orange-background-3d-rendering_342841-29.jpg?size=626&ext=jpg&uid=R122309561&ga=GA1.1.1354882028.1699986961&semt=ais" class="d-block w-100" alt="Slide 4">
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<div class="container featured-products">
+		<h2 class="text-center mb-4">Available Products</h2>
+		<div class="row">
+			@foreach (var product in Model)
+			{
+				<div class="col-md-4 mb-4">
+					<div class="product-card">
+						<img src="~/Uploads/@product.ImageFileName" alt="@product.Name" class="img-fluid">
+						<h3 class="mt-3">@TruncateProductName(product.Name, 50)</h3>
+						<p>@TruncateDescription(product.Description, 50)</p>
+
+						@if (User.Identity.IsAuthenticated)
+						{
+							<a href="@Url.Action("Details", "Product", new { id = product.Id })" class="btn btn-primary btn-sm view-details-btn">View Details</a>
+						}
+						else
+						{
+							<a href="/Identity/Account/Login" class="btn btn-primary btn-sm view-details-btn">Login to View Details</a>
+						}
+					</div>
+				</div>
+			}
+		</div>
+	</div>
+
+	@functions {
+		string TruncateProductName(string name, int maxLength)
+		{
+			if (name.Length <= maxLength)
+			{
+				return name;
+			}
+			else
+			{
+				return name.Substring(0, maxLength) + "...";
+			}
+		}
+
+		string TruncateDescription(string description, int maxLength)
+		{
+			if (description.Length <= maxLength)
+			{
+				return description;
+			}
+			else
+			{
+				return description.Substring(0, maxLength) + "...";
+			}
+		}
+	}
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

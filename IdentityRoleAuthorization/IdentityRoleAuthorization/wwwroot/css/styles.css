@@ -1,0 +1,59 @@
+﻿body {
+    padding-top: 56px;
+    background-color: blanchedalmond;
+}
+
+.jumbotron {
+    background-image: url('https://img.freepik.com/free-photo/black-friday-arrangement-with-shopping-bags_23-2148666974.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+    .jumbotron h1 {
+        font-size: 3.5rem;
+        font-weight: bold;
+    }
+
+.featured-products {
+    padding: 50px 0;
+    background-color: blanchedalmond;
+}
+
+.product-card {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+    .product-card img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .product-card h3 {
+        margin-top: 10px;
+    }
+
+.cta-section {
+    background-color: #007bff;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+    .cta-section h2 {
+        font-size: 2.5rem;
+    }
+
+.carousel-item img {
+    max-height: 400px;
+    width: 100%;
+}
+
+.view-details-btn {
+    background-color: black;
+    color: white;
+}
