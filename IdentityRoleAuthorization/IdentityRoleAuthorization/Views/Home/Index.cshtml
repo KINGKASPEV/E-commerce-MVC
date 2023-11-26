@@ -70,14 +70,16 @@
 						<p>@TruncateDescription(product.Description, 50)</p>
 						<p class="font-weight-bold">Price: $@product.Price</p>
 
-						@if (User.Identity.IsAuthenticated)
+						<a href="@Url.Action("Details", "Product", new { id = product.Id })" class="btn btn-primary btn-sm view-details-btn">View Details</a>
+
+						@* @if (User.Identity.IsAuthenticated)
 						{
 							<a href="@Url.Action("Details", "Product", new { id = product.Id })" class="btn btn-primary btn-sm view-details-btn">View Details</a>
 						}
 						else
 						{
 							<a href="/Identity/Account/Login" class="btn btn-primary btn-sm view-details-btn">Login to View Details</a>
-						}
+						} *@
 					</div>
 				</div>
 			}
