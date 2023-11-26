@@ -10,5 +10,6 @@ namespace IdentityRoleAuthorization.Data.Repositories.Interfaces
         Task<Product> GetByIdAsync(int Id);
         Task UpdateProductAsync(int Id, Product product);
         Task<IEnumerable<Product>> DeleteAllProductAsync();
-    }
+		Task<IEnumerable<Product>> SearchProductsAsync(string searchTerm);
+	}
 }

@@ -1,0 +1,71 @@
+﻿@model IEnumerable<IdentityRoleAuthorization.Models.Dtos.ProductResponseDto>
+
+@{
+    ViewData["Title"] = "Search Results";
+}
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Search Results</h1>
+
+    @if (Model.Any())
+    {
+        <div class="row">
+            @foreach (var product in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card" style="background-color: blanchedalmond;">
+                        @if (!string.IsNullOrEmpty(product.ImageFileName))
+                        {
+                            <img src="~/Uploads/@product.ImageFileName" alt="Product Image" class="card-img-top" />
+                        }
+                        else
+                        {
+                            <div class="text-center mt-3">
+                                <p>No image available</p>
+                            </div>
+                        }
+
+                        <div class="card-body">
+                            <h5 class="card-title">@TruncateProductName(product.Name, 20)</h5>
+                            <p class="card-text">@TruncateDescription(product.Description, 50)</p>
+                            <p class="card-text"><strong>Price:</strong> @product.Price.ToString("C")</p>
+                            <div class="text-center mt-3">
+                                <a href="@Url.Action("Details", new { id = product.Id })" class="btn btn-primary btn-sm view-details-btn">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <p>No products found.</p>
+    }
+</div>
+
+@functions {
+    string TruncateProductName(string name, int maxLength)
+    {
+        if (name.Length <= maxLength)
+        {
+            return name;
+        }
+        else
+        {
+            return name.Substring(0, maxLength) + "...";
+        }
+    }
+
+    string TruncateDescription(string description, int maxLength)
+    {
+        if (description.Length <= maxLength)
+        {
+            return description;
+        }
+        else
+        {
+            return description.Substring(0, maxLength) + "...";
+        }
+    }
+}

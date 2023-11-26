@@ -1,9 +1,11 @@
 ﻿using Ecommerce.Model.Models.Dtos;
 using Ecommerce.Service.Services.interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ECommerce.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class UserController : Controller
     {
         private readonly IUserService _userService;
@@ -12,6 +14,7 @@ namespace ECommerce.Controllers
         {
             _userService = userService;
         }
+
 
         public async Task<IActionResult> AllUsers()
         {

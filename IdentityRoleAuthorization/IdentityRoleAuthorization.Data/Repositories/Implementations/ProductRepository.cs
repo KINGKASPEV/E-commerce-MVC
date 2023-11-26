@@ -61,5 +61,17 @@ namespace IdentityRoleAuthorization.Data.Repositories.Implementations
             }
             return allProducts;
         }
-    }
+
+		public async Task<IEnumerable<Product>> SearchProductsAsync(string searchTerm)
+		{
+			return await _context.Products
+				.Where(p =>
+					EF.Functions.Like(p.Name, $"%{searchTerm}%") ||
+					EF.Functions.Like(p.Description, $"%{searchTerm}%") ||
+					EF.Functions.Like(p.Price.ToString(), $"%{searchTerm}%") ||
+					EF.Functions.Like(p.InStock.ToString(), $"%{searchTerm}%")
+				)
+				.ToListAsync();
+		}
+	}
 }

@@ -56,4 +56,14 @@ body {
    color: #007bff;
 }
 
+.view-details-btn {
+    background-color: black;
+    color: white;
+}
+
+.custom-search-btn {
+    color: white;
+}
+
+
 

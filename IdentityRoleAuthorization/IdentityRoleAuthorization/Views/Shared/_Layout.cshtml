@@ -39,6 +39,32 @@
                             </li>
                         }
                     </ul>
+
+                    <form class="d-flex mx-auto" asp-controller="Product" asp-action="Search" method="get" onsubmit="return validateSearchForm()">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="searchTerm" id="searchTerm">
+                        <button class="btn btn-outline-success custom-search-btn" type="submit">Search</button>
+                    </form>
+
+                    <script>
+                        function validateSearchForm() {
+                            var searchTerm = document.getElementById("searchTerm").value.trim();
+
+                            // Client-side validation: Ensure at least 3 characters
+                            if (searchTerm.length < 2) {
+                                alert("Please enter at least 2 characters for the search.");
+                                return false;
+                            }
+
+                            // Server-side validation: Ensure the search term is not empty
+                            if (!searchTerm) {
+                                alert("Please enter a search term.");
+                                return false;
+                            }
+
+                            return true;
+                        }
+                    </script>
+
                     <partial name="_LoginPartial" />
                 </div>
             </div>

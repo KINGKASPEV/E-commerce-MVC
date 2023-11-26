@@ -68,6 +68,7 @@
 						<img src="~/Uploads/@product.ImageFileName" alt="@product.Name" class="img-fluid">
 						<h3 class="mt-3">@TruncateProductName(product.Name, 50)</h3>
 						<p>@TruncateDescription(product.Description, 50)</p>
+						<p class="font-weight-bold">Price: $@product.Price</p>
 
 						@if (User.Identity.IsAuthenticated)
 						{

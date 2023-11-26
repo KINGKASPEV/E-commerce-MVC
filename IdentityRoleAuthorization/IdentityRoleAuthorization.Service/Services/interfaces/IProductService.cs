@@ -10,5 +10,6 @@ namespace IdentityRoleAuthorization.Service.Services.interfaces
         Task UpdateProductAsync(int productId, ProductRequestDto productRequestDto);
         Task DeleteProductAsync(int productId);
         Task<IEnumerable<ProductResponseDto>> DeleteAllProductAsync();
-    }
+		Task<IEnumerable<ProductResponseDto>> SearchProductsAsync(string searchTerm);
+	}
 }

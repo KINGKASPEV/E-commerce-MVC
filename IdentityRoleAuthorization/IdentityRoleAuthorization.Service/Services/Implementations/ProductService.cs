@@ -101,6 +101,12 @@ namespace IdentityRoleAuthorization.Service.Services.Implementations
 
             return productResponseDtos;
         }
-    }
+
+		public async Task<IEnumerable<ProductResponseDto>> SearchProductsAsync(string searchTerm)
+		{
+			var products = await _productRepository.SearchProductsAsync(searchTerm);
+			return MapToProductResponseDtos(products);
+		}
+	}
 
 }
