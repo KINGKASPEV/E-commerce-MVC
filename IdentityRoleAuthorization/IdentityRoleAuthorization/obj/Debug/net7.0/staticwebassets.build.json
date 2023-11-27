@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zaxV6gVz/CZ5V89AunV/razWr3d+v500l9aochQLCTM=",
+  "Hash": "GCPyL+mc01heiweCUsvL9NrDEHJRcrGGRUaFtEAOnqE=",
   "Source": "ECommerce",
   "BasePath": "_content/ECommerce",
   "Mode": "Default",
@@ -1120,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\favicon1.ico",
+      "SourceId": "ECommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\",
+      "BasePath": "_content/ECommerce",
+      "RelativePath": "favicon1.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon1.ico"
     },
     {
       "Identity": "C:\\Users\\user\\Desktop\\My-project\\Register-Login-Authentication\\IdentityRoleAuthorization\\IdentityRoleAuthorization\\wwwroot\\js\\site.js",
